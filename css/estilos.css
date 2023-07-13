@@ -1,0 +1,27 @@
+:root{
+    --azul: #2C4A9A;
+    --naranja: #F3920B;
+    --blanco: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+}
+.navbar_icon_container{
+    
+}
+.navbar_icon{
+    display: block;
+    width: 100%;
+}
