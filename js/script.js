@@ -17,4 +17,6 @@ function aparecerBanner(){
 
     setTimeout("desaparecerBanner()", 4000);
 }
+
 document.addEventListener("DOMContentLoaded", aparecerBanner);
+
