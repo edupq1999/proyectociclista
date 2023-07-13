@@ -183,7 +183,7 @@ section{
     height: fit-content;
     display: block;
     object-fit: cover;
-    max-height: 300px;
+    max-height: 400px;
     margin: auto;
 }
 footer{
