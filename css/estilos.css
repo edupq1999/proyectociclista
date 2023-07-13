@@ -4,7 +4,7 @@
     --naranja: #F3920B;
     --blanco: #FFFFFF;
     --blanco2: #ffffff7a;
-    --sombra: #000000ad;
+    --sombra: #00000042;
 }
 
 *{
@@ -89,7 +89,8 @@ section{
 }
 .investigacion_subtitle{
     color: var(--azul2);
-    margin-top: 10px;
+    margin: 10px;
+    font-size: 24px;
 }
 .investigacion_regulaciones_container{
     display: flex;
@@ -116,11 +117,32 @@ section{
 }
 .investigacion_regulaciones_img{
     display: block;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
     max-width: 100%;
     margin: auto;
 }
 .investigacion_regulaciones_img_container{
     width: 35%;
+}
+.investigacion_uso_text{
+    width: 95%;
+    margin: auto;
+    font-size: 20px;
+}
+.investigacion_uso_list_element{
+    margin: 10px 0;
+}
+.investigacion_uso_list_element{
+    font-size: 18px;
+}
+.investigacion_uso_imgContainer{
+    width: 40%;
+    margin: 20px auto;
+}
+.investigacion_uso_img{
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px var(--sombra);
 }
