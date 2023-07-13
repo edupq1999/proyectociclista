@@ -2,6 +2,8 @@
     --azul: #2C4A9A;
     --naranja: #F3920B;
     --blanco: #FFFFFF;
+    --blanco2: #ffffff7a;
+    --sombra: #000000ad;
 }
 
 *{
@@ -25,6 +27,7 @@ a{
     background-color: var(--blanco);
     width: 96%;
     height: 80px;
+    z-index: 2;
 }
 .navbar_icon_container{
     width: 20%;
@@ -50,4 +53,26 @@ a{
 }
 .main{
     margin-top: 80px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://www.fundacionmapfre.org/media/educacion-divulgacion/prevencion/accidentes-mayores/te-mueves-bicicleta-consejos-basicos-seguridad-vial-ciclista-1194x585-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main_container{
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    background-color: var(--blanco2);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px var(--sombra);
+    padding: 20px;
+}
+.main_title{
+    color: var(--azul);
+    font-size: 60px;
+}
+.main_info{
+    color: var(--naranja);
+    font-size: 40px;
 }
