@@ -53,11 +53,13 @@ a{
 }
 .main{
     margin-top: 80px;
-    height: 400px;
+    height: 500px;
     position: relative;
-    background-image: url(https://www.fundacionmapfre.org/media/educacion-divulgacion/prevencion/accidentes-mayores/te-mueves-bicicleta-consejos-basicos-seguridad-vial-ciclista-1194x585-1.jpg);
-    background-position: center;
-    background-size: cover;
+}
+#main_img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
 }
 .main_container{
     position: absolute;
