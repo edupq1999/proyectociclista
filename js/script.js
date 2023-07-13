@@ -39,5 +39,27 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 })
 
-const investigacionArreglo2Text = [];
-const investigacionArreglo2Img = [];
+const desarrolloImgs = ['./imagenes/chismoso fondo blanco.jpg', './imagenes/chismoso fondo blanco 2.jpg', './imagenes/escenario-02.png', './imagenes/escenario-03.png'];
+let desarrolloIndex = 0;
+
+function desaparecerDesarrollo() {
+    const desarrolloImg = document.getElementById('desarrollo_img');
+    desarrolloIndex++;
+    if (desarrolloImgs.length==desarrolloIndex) {desarrolloIndex=0;}
+    desarrolloImg.style.opacity='0';
+    desarrolloImg.style.transition='1s';
+
+    setTimeout("aparecerDesarrollo()", 1500)
+}
+function aparecerDesarrollo(){
+    const desarrolloImg = document.getElementById('desarrollo_img');
+    desarrolloImg.setAttribute('src', desarrolloImgs[desarrolloIndex])
+    console.log(desarrolloImg[0])
+    console.log(desarrolloIndex)
+    desarrolloImg.style.opacity='1';
+    desarrolloImg.style.transition='1s';
+
+    setTimeout("desaparecerDesarrollo()", 3000);
+}
+
+document.addEventListener("DOMContentLoaded", aparecerDesarrollo);
