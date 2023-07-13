@@ -1,5 +1,6 @@
 :root{
     --azul: #2C4A9A;
+    --azul2: #455ea3;
     --naranja: #F3920B;
     --blanco: #FFFFFF;
     --blanco2: #ffffff7a;
@@ -77,4 +78,49 @@ a{
 .main_info{
     color: var(--naranja);
     font-size: 40px;
+}
+section{
+    width: 95%;
+    margin: 20px auto;
+}
+.investigacion_title{
+    font-size: 40px;
+    color: var(--azul);
+}
+.investigacion_subtitle{
+    color: var(--azul2);
+    margin-top: 10px;
+}
+.investigacion_regulaciones_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    margin: 20px 0;
+}
+.investigacion_regulaciones_option_title{
+    font-size: 20px;
+    cursor: pointer;
+    width: fit-content;
+    color: var(--azul);
+    font-weight: bold;
+    margin: 10px 0;
+}
+.investigacion_regulaciones_list{
+    width: 25%;
+}
+.investigacion_regulaciones_text{
+    width: 30%;
+    color: var(--naranja);
+    font-size: 20px;
+}
+.investigacion_regulaciones_img{
+    display: block;
+    height: 400px;
+    object-fit: cover;
+    max-width: 100%;
+    margin: auto;
+}
+.investigacion_regulaciones_img_container{
+    width: 35%;
 }
